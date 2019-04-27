@@ -1,0 +1,364 @@
+html,
+body {
+  background-color:#203b52;
+  background-position: static;
+}
+.Book-Para {
+  color: #00539c;
+  font-family: Verdana;
+  font-size: 16px;
+  font-weight: revert;
+}
+.modal-ul {
+  color: black;
+  list-style-type: none;
+}
+.modal-ul li {
+  padding: 10px;
+  margin: 10px;
+}
+.link {
+  text-decoration: none;
+  padding: 10px;
+  margin: 10px;
+}
+.modal-ul .link {
+  font-size: 14px;
+  padding: 10px;
+  margin: 10px;
+  color: black;
+  font-family: "Comic Sans MS";
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.modal-ul li .link:hover {
+  color: coral;
+}
+.wrapper {
+  position: relative;
+  overflow: hidden;
+  width: 335px;
+  height: 350px;
+  border: 2px solid black;
+  background-color: #403434;
+}
+
+.slide {
+  position: absolute;
+  bottom: -521px;
+  width: 0px;
+  height: 0px;
+  transition: 1s ease-in;
+  border-bottom: 300px solid tan;
+  border-right: 700px solid transparent;
+}
+
+.wrapper:hover .slide {
+  transition: 1s;
+  bottom: 0;
+}
+
+.next-gen {
+  color: tan;
+  margin-top: 110px;
+  margin-left: 300px;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: verdana;
+}
+.next-gen-para {
+  color: white;
+  margin-left: 320px;
+  font-size: 17px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: verdana;
+}
+.card {
+  max-width: 400;
+  border: 2px solid #403434;
+  margin: 5px;
+  background-color: tan;
+  color: tan;
+}
+.book-online-button {
+  margin-left: 350px;
+  margin-top: 10px;
+  background-color: tan;
+  padding: 10px;
+  border: 3px solid white;
+  opacity: 0.8;
+  border-radius: 30px;
+  width: 150px;
+  height: 50px;
+}
+.book-online-button:hover {
+  background-color: rgba(117, 226, 117, 0.7);
+}
+.logo-img {
+  height: 100px;
+  width: 250px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.tab-image {
+  width: 550px;
+  height: 350px;
+}
+.Chip {
+  margin-left: -10px;
+}
+.video {
+  width: 440px;
+  height: 240px;
+}
+.shop-card {
+  margin: 10px 50px;
+}
+.home-bar {
+  background-image: url("./Assets/Pics/nine.jpeg");
+  height: 647px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.9;
+  width: 100%;
+}
+.tabs {
+  margin-left: 400px;
+}
+.tab-1 {
+  margin-left: 470px;
+}
+.tab-2 {
+  margin-left: 560px;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .tabs {
+    margin-left: -10px;
+  }
+  .tab-1 {
+    margin-left: 50px;
+  }
+  .tab-2 {
+    margin-left: 100px;
+  }
+  .home-bar {
+    background-image: url("./Assets/Pics/nine.jpeg");
+    height: 647px;
+    background-repeat: no-repeat;
+    background-size: 340px 650px;
+    background-position: center;
+    opacity: 0.9;
+    width: 50%;
+  }
+  .video {
+    margin-left: 16px;
+    width: 400px;
+    height: 240px;
+  }
+  .shop-card {
+    margin: 10px 10px;
+  }
+  .Chip {
+    margin-left: -20px;
+  }
+  .Book-Para {
+    color: #00539c;
+    font-family: Verdana;
+    font-size: 12px;
+    font-weight: revert;
+  }
+  .tab-image {
+    width: 100%;
+    height: 250px;
+  }
+  .logo-img {
+    height: 50px;
+    width: 100px;
+    margin-left: 0px;
+  }
+  .book-online-button {
+    margin-left: 40px;
+    background-color: rgba(117, 226, 117, 0.7);
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 30px;
+    width: 150px;
+    height: 50px;
+  }
+  .card {
+    display: none;
+  }
+  .next-gen {
+    color: #d8bfd8;
+    margin-top: 150px;
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: verdana;
+    display: block;
+  }
+  .next-gen-para {
+    color: #d8bfd8;
+    margin-left: 50px;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: verdana;
+  }
+  .wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 140px;
+    height: 353px;
+    border: 1px solid black;
+  }
+  .slide {
+    display: none;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 800px) {
+  .tabs {
+    margin-left: 125px;
+  }
+  .tab-1 {
+    margin-left: 200px;
+  }
+  .tab-2 {
+    margin-left: 260px;
+  }
+  .home-bar {
+    background-image: url("./Assets/Pics/nine.jpeg");
+    height: 647px;
+    background-repeat: no-repeat;
+    background-size: 440px 650px;
+    background-position: center;
+    opacity: 0.9;
+    width: 50%;
+  }
+  .shop-card {
+    margin: 10px 50px;
+  }
+  .video {
+    width: 720px;
+    height: 240px;
+  }
+  .book-online-button {
+    margin-left: 80px;
+    background-color: rgb(172, 204, 172, 0.7);
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 30px;
+    width: 150px;
+    height: 50px;
+  }
+  .card {
+    display: none;
+  }
+  .next-gen {
+    color: #d8bfd8;
+    margin-top: 150px;
+    margin-left: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: verdana;
+  }
+  .next-gen-para {
+    color: #d8bfd8;
+    margin-left: 100px;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: verdana;
+  }
+  .wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 260px;
+    height: 323px;
+    border: 1px solid black;
+  }
+  .slide {
+    position: absolute;
+    bottom: -323px;
+    width: 260px;
+    height: 320px;
+    transition: 1s ease-in-out;
+    border-radius: 400px 0px 400px 0px;
+  }
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 1px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.material-icons {
+  font-size: 2.4em;
+  cursor: pointer;
+}
+.card {
+  width: 300px;
+}
+.card .card-image .card-title {
+  color: black;
+  font-weight: 400;
+}
+.cart {
+  margin-top: 40px;
+}
+.collection .collection-item {
+  display: flex;
+}
+.collection-item.avatar .title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #ee6e73;
+  display: block;
+  margin-bottom: 20px;
+}
+.collection .collection-item img {
+  width: 150px;
+  margin-right: 25px;
+}
+.item-desc {
+  align-self: center;
+}
