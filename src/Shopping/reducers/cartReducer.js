@@ -26,7 +26,7 @@ const initState = {
       title: "Winter body",
       desc:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.",
-      price: 110,
+      price: 19.99,
       img: Item1
     },
     {

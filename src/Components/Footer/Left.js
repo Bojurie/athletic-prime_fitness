@@ -9,13 +9,13 @@ function IconAvatars(props) {
       <h3>we are on</h3>
       <Grid container justify="center" alignItems="center">
         <Avatar className="avatar">
-          <SocialIcon url="http://twitter.com" />
+          <SocialIcon url="http://twitter.com" target="_blank"/>
         </Avatar>
         <Avatar className="avatar">
-          <SocialIcon url="http://facebook.com" />
+          <SocialIcon url="https://www.facebook.com/AthleticPrime/" target="_blank"/>
         </Avatar>
         <Avatar className="avatar">
-          <SocialIcon url="http://instagram.com" />
+          <SocialIcon url="https://www.instagram.com/athleticprime_fitness/?hl=en" target="_blank" />
         </Avatar>
       </Grid>
     </div>

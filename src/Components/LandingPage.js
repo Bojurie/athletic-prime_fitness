@@ -23,7 +23,8 @@ function LandingPage() {
           style={{
             padding: "10px",
             textAlign: "center",
-            backgroundColor: "#696969",
+            backgroundColor: " rgba(0,0,0,0.3)",
+            borderRadius: "50px ",
             color: "white",
             fontFamily: "verdana"
           }}
@@ -32,7 +33,7 @@ function LandingPage() {
           <span
             style={{
               fontSize: "30px",
-              color: "tan",
+              color: "#c6a965",
               fontFamily: "verdana",
               fontWeight: "200px"
             }}
@@ -44,14 +45,14 @@ function LandingPage() {
           style={{
             textAlign: "center",
             fontSize: "15px",
-            padding: "10px",
+            padding: "15px",
             margin: "3px",
-            backgroundColor: "#696969",
+            backgroundColor: " rgba(0,0,0,0.3)",
             color: "white",
             opacity: "0.8",
             fontFamily: "verdana",
-            boxShadow: "10px 10px 5px 5px #403434",
-            border: "5px outset #F5DEB3",
+            boxShadow: "10px 10px 5px 5px rgba(0,0,0,0.3)",
+            border: "5px outset #c6a965",
             borderRadius: "50px"
           }}
         >

@@ -103,7 +103,7 @@ class NavBar extends React.Component {
             animationInDelay={400}
           >
             {" "}
-            <h1 className="next-gen"> Athleteic Prime </h1>{" "}
+            {/* <h1 className="next-gen"> Athleteic Prime </h1>{" "} */}
           </Animated>
           <Animated
             animationIn="bounceInRight"
@@ -112,7 +112,7 @@ class NavBar extends React.Component {
             animationInDelay={400}
           >
             {" "}
-            <p className="next-gen-para">Next Gen Athlete Training </p>{" "}
+            {/* <p className="next-gen-para">Unleash The Athlete In You </p>{" "} */}
           </Animated>
         </AppBar>
       </div>

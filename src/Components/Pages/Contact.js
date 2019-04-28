@@ -20,12 +20,12 @@ function Contact() {
             fontSize: "15px",
             padding: "0px",
             margin: "0",
-            backgroundColor: "#696969",
+            backgroundColor: "rgba(0,0,0,0.3)",
             color: "white",
             opacity: "0.8",
             fontFamily: "verdana",
-            boxShadow: "1px 5px 5px 5px #403434",
-            border: "4px outset #F5DEB3",
+            boxShadow: "1px 5px 5px 5px rgba(0,0,0,0.3)",
+            border: "4px outset  #c6a965",
             borderRadius: "25px"
           }}
         >
@@ -33,7 +33,7 @@ function Contact() {
           <br />
           <p>
             <span
-              style={{ color: "tan", fontWeight: "bold", fontSize: "14px" }}
+              style={{ color: "#c6a965", fontWeight: "bold", fontSize: "14px" }}
             >
               {" "}
               EMAIL{" "}
@@ -42,7 +42,7 @@ function Contact() {
           </p>
           <p>
             <span
-              style={{ color: "tan", fontWeight: "bold", fontSize: "14px" }}
+              style={{ color: "#c6a965", fontWeight: "bold", fontSize: "14px" }}
             >
               {" "}
               Phone

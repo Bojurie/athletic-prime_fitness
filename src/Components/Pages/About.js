@@ -7,7 +7,7 @@ function About() {
   return (
     <div>
       <Grid container spacing={0}>
-        <Grid item xs={6} md={6} lg={8} style={{ backgroundColor: " #696969" }}>
+        <Grid item xs={6} md={6} lg={8} style={{ backgroundColor: " #203b52" }}>
           <NavBar
             navImage="https://images.unsplash.com/photo-1526403646408-57b94dc15399?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
             height="100%"
@@ -19,12 +19,12 @@ function About() {
               fontSize: "20px",
               padding: "20px",
               margin: "10px",
-              backgroundColor: "#696969",
+              backgroundColor: "rgba(0,0,0,0.3)",
               color: "white",
               opacity: "0.8",
               fontFamily: "verdana",
-              boxShadow: "1px 20px 5px 5px #403434",
-              border: "4px outset #F5DEB3",
+              boxShadow: "1px 20px 5px 5px rgba(0,0,0,0.3)",
+              border: "4px outset #c6a965",
               borderRadius: "25px"
             }}
           >
@@ -37,12 +37,12 @@ function About() {
               fontSize: "20px",
               padding: "20px",
               margin: "25px",
-              backgroundColor: "#696969",
+              backgroundColor: "rgba(0,0,0,0.3)",
               color: "white",
               opacity: "0.8",
               fontFamily: "verdana",
-              boxShadow: "1px 30px 5px 5px #403434",
-              border: "4px outset #F5DEB3",
+              boxShadow: "1px 30px 5px 5px rgba(0,0,0,0.3)",
+              border: "4px outset #c6a965",
               borderRadius: "25px"
             }}
           >
@@ -55,12 +55,12 @@ function About() {
               fontSize: "20px",
               padding: "20px",
               margin: "40px",
-              backgroundColor: "#696969",
+              backgroundColor: "rgba(0,0,0,0.3)",
               color: "white",
               opacity: "0.8",
               fontFamily: "verdana",
-              boxShadow: "1px 30px 5px 5px #403434",
-              border: "4px outset #F5DEB3",
+              boxShadow: "1px 30px 5px 5px rgba(0,0,0,0.3)",
+              border: "4px outset #c6a965",
               borderRadius: "25px"
             }}
           >
@@ -83,12 +83,12 @@ function About() {
             fontSize: "15px",
             padding: "20px",
             margin: "10px",
-            backgroundColor: "#696969",
+            backgroundColor: "rgba(0,0,0,0.3)",
             color: "white",
             opacity: "0.8",
             fontFamily: "verdana",
-            boxShadow: "1px 5px 5px 5px #403434",
-            border: "4px outset #F5DEB3",
+            boxShadow: "1px 5px 5px 5px rgba(0,0,0,0.3)",
+            border: "4px outset  #c6a965",
             borderRadius: "50px"
           }}
         >

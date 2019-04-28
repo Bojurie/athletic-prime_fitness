@@ -15,7 +15,7 @@ const styles = theme => ({
     padding: theme.spacing.unit * 2,
     textAlign: "center",
     color: "white",
-    backgroundColor: "#696969",
+    backgroundColor: "#203b52",
     height: "190px"
   }
 });
